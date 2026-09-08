@@ -1,0 +1,21 @@
+{
+  "deploymentType": "frontend-js",
+  "typeDeclaration": {
+    "kind": "frontend-js/v1",
+    "entryPointPath": "src/main.jsx",
+    "builderProfile": "frontend-js-vite/v1"
+  },
+  "artifactBuildIntent": {
+    "kind": "static-bundle/v1"
+  },
+  "declaredSourcePaths": [
+    "fixed-type-contract.json",
+    "index.html",
+    "package-lock.json",
+    "package.json",
+    "src/App.jsx",
+    "src/main.jsx",
+    "src/styles.css",
+    "tests/page.test.mjs"
+  ]
+}

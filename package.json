@@ -1,0 +1,14 @@
+{
+  "name": "fixed-type-frontend-js-vite-template",
+  "private": true,
+  "type": "module",
+  "description": "Hub Vite React release. The Hub injects Vite config and builds hashed assets; this package is never executed as vite in the Hub process.",
+  "scripts": {
+    "test": "node --test tests/page.test.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.1"
+  }
+}
